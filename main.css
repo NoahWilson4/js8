@@ -1,0 +1,80 @@
+h1 {
+	margin-left: 5px;
+	width: 300px;
+	padding: 0
+
+}
+.photos{
+	min-width: 320px;
+}
+
+.sb {
+	margin: auto;
+	padding: 10px 15px;
+	color: rgb(185, 33, 33);
+	display: block;
+}
+
+.view-slideshow{
+	margin-left: 5px;
+	padding: 10px 15px;
+	color: rgb(185, 33, 33);
+	display: block;
+}
+
+
+.photo-box {
+	width: 267px;
+	height: 200px;
+	position: relative;
+	background-color: black;
+	margin: 5px;
+	display: inline-block;
+	border: none;
+}
+.onpage {
+	display: block;
+	height: 100%;
+	margin: auto;
+	
+}
+
+.slide{
+	width: 96%;
+	height: 90%%;
+	min-width: 300px;
+	background: black;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 8%;
+}
+.slide-pic {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 700px) {
+.photos {
+	width: 90%;
+	padding: ;
+	margin: auto;
+
+}
+
+.photo-box {
+	margin: 5px;
+}
+
+
+
+@media screen and (min-width: 701px) {
+	.photos{
+		width: 900px;
+		margin-right: 0;
+	}
+	.photo-box {
+		margin: 5px;
+}
+}
